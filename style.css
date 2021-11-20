@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lato:ital,wght@1,300&family=M+PLUS+1:wght@500&family=Poppins:ital,wght@0,300;1,200&family=Zilla+Slab:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bitter";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.items {
+    list-style: none;
+    padding: 0 20px;
+    margin-right: 300px;
+}
+
+.items li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+.items li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    transition: 0.4s;
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+h2 {
+    padding: 30px;
+    margin-left: 200px;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
+
+.icons {
+    margin-left: 500px;
+    margin-top: 19px;
+}
+
+.banner {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    color: white;
+    background-color: #305044;
+}
+
+.banner img {
+    height: 652px;
+}
+
+.banner-text {
+    padding-top: 120px;
+    width: auto;
+    margin-left: 130px;
+}
+
+.banner-text h5{
+    font-weight: 50;
+}
+
+.banner-text h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+
+.banner-text a {
+    color: #285545;
+}
+
+.banner-text a {
+    background-color: white;
+}
+
+.banner-text i {
+     color: #285545;
+} 
+
+.banner a {
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.banner > a > i{
+    background-color: white;
+    padding: 18px;
+    color: black;
+    border-radius: 2px;
+}
+
